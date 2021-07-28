@@ -4,8 +4,8 @@
     <q-responsive :ratio="1" style="width: 100%; max-width: 100%;">
         <q-carousel
             animated
-            arrows
-            navigation
+            swipeable
+            thumbnails
             infinite
             height="100vh"
             autoplay
