@@ -100,6 +100,7 @@ export default {
 </script>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 body {
   margin: 0;
   width: 100vw;
@@ -108,6 +109,8 @@ body {
 p,
 h4,
 h6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
   margin: 0px;
 }
 .base {
@@ -139,6 +142,10 @@ background: linear-gradient(0deg, rgba(252,189,24,1) 0%, rgba(255,255,255,1) 100
 .avatar {
   max-height: 2rem;
   margin: 0;
+}
+a{
+  text-decoration: none;
+  color: black;
 }
 .icone {
   display: flex;
