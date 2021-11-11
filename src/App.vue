@@ -56,6 +56,12 @@ export default {
       },
       dados: [
         {
+          nome:"Site",
+          descricao:"Compre sem sair de casa atraves do nosso novo site",
+          icon: "/site.png",
+          link:"https://lojaterritoriodocalcado.com.br"
+        },
+        {
           nome: "WhatsApp",
           descricao: "Entre em contato conosco com link direto",
           icon: "/whatsapp.png",
