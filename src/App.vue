@@ -20,7 +20,7 @@
             </q-item>
             <q-item-section>
               <q-item-label header class="no-padding no-margin">
-                {{ dado.nome }}
+                <p class="title">{{ dado.nome }}</p>
               </q-item-label>
               <q-item-label caption line="1" class="no-margin">
                 {{ dado.descricao }}
@@ -137,7 +137,7 @@ h6 {
   /* background-color: #00a85abb; */
   margin: 0;
   background: rgb(252,189,24);
-background: linear-gradient(0deg, rgba(252,189,24,1) 0%, rgba(255,255,255,1) 100%);
+  background: linear-gradient(0deg, rgba(252,189,24,1) 0%, rgba(255,255,255,1) 100%);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -171,5 +171,10 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 </style>
