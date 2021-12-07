@@ -89,7 +89,7 @@ export default {
           link: "mailto:territoriodocalcado.camaqua@gmail.com?subject=Produtos%20por%20atacado&body=Tenho%20interesse%20em%20comprar%20por%20atacado.",
         },
         {
-          nome: "Mercado Shops (ML) Vendas no atacado",
+          nome: "Mercado Shops Vendas no atacado",
           icon: "ml.svg",
           descricao:
             "Compre tambem através do Mercado Livre",
@@ -174,7 +174,8 @@ a{
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  margin: 0;
 }
 </style>
