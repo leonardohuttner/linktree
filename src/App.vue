@@ -57,13 +57,13 @@ export default {
       dados: [
         {
           nome:"Site",
-          descricao:"Compre sem sair de casa atraves do nosso novo site",
+          descricao:"Compre sem sair de casa através do nosso site próprio",
           icon: "/site.png",
           link:"https://lojaterritoriodocalcado.com.br"
         },
         {
           nome: "WhatsApp",
-          descricao: "Entre em contato conosco com link direto",
+          descricao: "Entre em contato conosco com link direto com um de nossos atendentes",
           icon: "/whatsapp.png",
           link: "https://wa.me/message/6Z5UKTEG34ROI1",
         },
@@ -89,11 +89,25 @@ export default {
           link: "mailto:territoriodocalcado.camaqua@gmail.com?subject=Produtos%20por%20atacado&body=Tenho%20interesse%20em%20comprar%20por%20atacado.",
         },
         {
+          nome: "Mercado Shops (ML) Vendas no atacado",
+          icon: "ml.svg",
+          descricao:
+            "Compre tambem através do Mercado Livre",
+          link: "https://territoriodocalcado.mercadoshops.com.br/",
+        },
+        {
+          nome: "Mercado Livre",
+          icon: "ml.svg",
+          descricao:
+            "Compre tambem através do Mercado Livre",
+          link: "https://www.mercadolivre.com.br/perfil/TERRITORIODOCALCADO",
+        },
+        {
           nome: "Instagram",
           icon: "/instagram.png",
           descricao: "Nos siga para acompanhar as ultimas novidades",
           link: "https://www.instagram.com/territoriodocalc/",
-        },
+        }
       ],
     };
   },
