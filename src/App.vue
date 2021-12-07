@@ -89,17 +89,17 @@ export default {
           link: "mailto:territoriodocalcado.camaqua@gmail.com?subject=Produtos%20por%20atacado&body=Tenho%20interesse%20em%20comprar%20por%20atacado.",
         },
         {
-          nome: "Mercado Shops Vendas no atacado",
+          nome: "Mercado Shops - Atacado",
           icon: "ml.svg",
           descricao:
-            "Compre tambem através do Mercado Livre",
+            "Compre também através do Mercado Livre",
           link: "https://territoriodocalcado.mercadoshops.com.br/",
         },
         {
           nome: "Mercado Livre",
           icon: "ml.svg",
           descricao:
-            "Compre tambem através do Mercado Livre",
+            "Compre também através do Mercado Livre",
           link: "https://www.mercadolivre.com.br/perfil/TERRITORIODOCALCADO",
         },
         {
