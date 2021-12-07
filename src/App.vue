@@ -19,7 +19,7 @@
               <img :src="dado.icon" :alt="dado.nome" class="avatar" />
             </q-item>
             <q-item-section>
-              <q-item-label header class="q-pa-xs">
+              <q-item-label header class="no-padding">
                 <h6>{{ dado.nome }}</h6>
               </q-item-label>
               <q-item-label caption line="1">
