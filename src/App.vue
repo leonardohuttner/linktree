@@ -68,11 +68,17 @@ export default {
           link: "https://wa.me/message/6Z5UKTEG34ROI1",
         },
         {
-          nome: "Catalogo",
+          nome: "Instagram",
+          icon: "/instagram.png",
+          descricao: "Nos siga para acompanhar as ultimas novidades",
+          link: "https://www.instagram.com/territoriodocalc/",
+        },
+        {
+          nome: "Catalogo atacado 3/22",
           descricao:
-            "Clique e confira nosso catalogo e compre direto pelo WhatsApp",
-          icon: "/whatsapp.png",
-          link: "https://wa.me/c/555185261791",
+            "Clique e confira nosso catalogo:",
+          icon: "/pdf.png",
+          link: "/CATALOGO22.pdf",
         },
         {
           nome: "Shopee",
@@ -102,12 +108,6 @@ export default {
             "Compre também através do Mercado Livre",
           link: "https://www.mercadolivre.com.br/perfil/TERRITORIODOCALCADO",
         },
-        {
-          nome: "Instagram",
-          icon: "/instagram.png",
-          descricao: "Nos siga para acompanhar as ultimas novidades",
-          link: "https://www.instagram.com/territoriodocalc/",
-        }
       ],
     };
   },
@@ -143,6 +143,7 @@ h6 {
 }
 .card {
   width: 100%;
+  border-radius: 10px
   cursor: pointer;
 }
 .perfil {
