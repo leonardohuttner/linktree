@@ -143,7 +143,7 @@ h6 {
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
