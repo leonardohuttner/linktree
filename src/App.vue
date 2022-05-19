@@ -5,7 +5,7 @@
       <h4>{{ empresa.nome }}</h4>
       <p>{{ empresa.slogan }}</p>
     </div>
-    <div class="q-gutter-y-md q-ma-md items-center justify-center">
+    <div class="q-gutter-y-md q-ma-md container">
       <q-card
         class="card"
         clickable
@@ -141,6 +141,13 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   width: 100%;
   max-width: 500px;
