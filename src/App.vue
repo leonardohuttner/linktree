@@ -7,7 +7,7 @@
     </div>
     <div class="q-gutter-y-md q-ma-md">
       <q-card
-        class="card"
+        class="card items-center"
         clickable
         v-for="dado in dados"
         :key="dado.nome"
