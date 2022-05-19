@@ -5,9 +5,9 @@
       <h4>{{ empresa.nome }}</h4>
       <p>{{ empresa.slogan }}</p>
     </div>
-    <div class="q-gutter-y-md q-ma-md">
+    <div class="q-gutter-y-md q-ma-md items-center justify-center">
       <q-card
-        class="card items-center"
+        class="card"
         clickable
         v-for="dado in dados"
         :key="dado.nome"
